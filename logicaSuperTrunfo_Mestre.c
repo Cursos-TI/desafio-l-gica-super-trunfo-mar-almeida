@@ -434,7 +434,7 @@ int main() {
             escolhausuario == 1 ? 
             printf("Parabéns! Paraná vence nos dois atributos!\n") : 
             printf("Parabéns! Santa Catarina vence nos dois atributos!\n");
-            printf("-----------------------------\n");
+            printf("-----------------------------");
 
         } else if (resultado1 == 1 && resultado2 == 0)
         {
@@ -442,7 +442,7 @@ int main() {
             escolhausuario == 1 ? 
             printf("Primeiro atributo: PR ganha / Segundo atributo: PR perde\n") : 
             printf("Primeiro atributo: SC ganha / Segundo atributo: SC perde\n");
-            printf("-----------------------------\n");
+            printf("-----------------------------");
 
         } else if (resultado1 == 0 && resultado2 == 1)
         {
@@ -450,14 +450,14 @@ int main() {
             escolhausuario == 1 ? 
             printf("Primeiro atributo: PR perde / Segundo atributo: PR Ganha\n") : 
             printf("Primeiro atributo: SC perde / Segundo atributo: SC Ganha\n");
-            printf("-----------------------------\n");
+            printf("-----------------------------");
 
         } else {
             escolhausuario == 1 ? 
             printf("Infelizmente, Paraná perde nos dois atributos!\n") : 
             printf("Infelizmente, Santa Catarina perde nos dois atributos!\n");
             printf("Tente novamente!\n");
-            printf("-----------------------------\n");
+            printf("-----------------------------");
             
         }
     }   
